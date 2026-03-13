@@ -49,9 +49,9 @@
             // 
             ListPessoas.FormattingEnabled = true;
             ListPessoas.ItemHeight = 15;
-            ListPessoas.Location = new Point(39, 88);
+            ListPessoas.Location = new Point(48, 88);
             ListPessoas.Name = "ListPessoas";
-            ListPessoas.Size = new Size(351, 274);
+            ListPessoas.Size = new Size(359, 274);
             ListPessoas.TabIndex = 1;
             // 
             // label2
@@ -85,6 +85,7 @@
             button1.TabIndex = 5;
             button1.Text = "Adicionar";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Form1
             // 
@@ -99,6 +100,7 @@
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
